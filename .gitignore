@@ -1,0 +1,29 @@
+# --- System junk ---
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+
+# --- Large images: use GitHub Releases, not the git repo ---
+*.img
+*.zip
+!magisk/aac-c2-preference-fix-v1.zip
+
+# --- Build / temp output ---
+/tmp/
+/out/
+/build/
+*.log
+*.tmp
+*.bak
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# --- Editors ---
+.vscode/
+.idea/
+*.swp
