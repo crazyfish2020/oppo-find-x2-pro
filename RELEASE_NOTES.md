@@ -77,11 +77,10 @@ Full guide: [README.md](../blob/main/README.md)
 ## ✅ What works
 
 Boot · Wi-Fi · 5G/LTE · VoLTE · Bluetooth · Sensors · Camera photo · Camera video
-(with the Magisk module) · Magisk root
+(with the Magisk module) · **Fingerprint** · Magisk root
 
 ## ❌ Known issues
 
-- **Fingerprint** — `gaia init_fault=18`, not working
 - **SELinux is Permissive** — required for the port
 - **Stock OnePlus camera unusable** — use
   [Open Camera](https://f-droid.org/packages/net.sourceforge.opencamera/)
